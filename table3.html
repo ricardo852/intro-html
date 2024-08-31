@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 3</title>
+    <style>
+        .fondo-negro{
+            background-color: black;/*color Fondo*/
+            color: white;/*color de texto*/
+        }
+        .espacio-de-tabla {
+            width: 20%; /* Ajuste del ancho de la tabla */        
+        }
+        .centered-text {
+            text-align: center; /* Centrar texto horizontalmente */
+            vertical-align: middle; /* Centrar texto verticalmente */
+        }
+
+    </style>
+    
 </head>
 <body>
-    <table border="1">
+    
+    <table border="1" class="fondo-negro espacio-de-tabla">
         <tr>
-            <th colspan="2">Cars</th>             
+            <th colspan="2" class="centered-text">Cars</th>             
         </tr>
         <tr>
-            <td>Brand</td> 
-            <td>Referense</td> 
+            <td class="centered-text">Brand</td> 
+            <td class="centered-text">Referense</td> 
         </tr>
 
         <tr>
-            <th rowspan="4">Mazda</th>
-            <th>CX-3</th>
+            <th rowspan="4" class="centered-text">Mazda</th>
+            <th class="centered-text">CX-3</th>
         </tr>
-        <tr><th>CX-5</th></tr>
-        <tr><th>CX-60</th></tr>
-        <tr><th>323</th></tr>        
+        <tr><th class="centered-text">CX-5</th></tr>
+        <tr><th class="centered-text">CX-60</th></tr>
+        <tr><th class="centered-text">323</th></tr>        
         
         <tr>
-            <th rowspan="1">Renault</th>
-            <th>Sandero</th>
+            <th rowspan="1" class="centered-text">Renault</th>
+            <th class="centered-text">Sandero</th>
         </tr>
         <tr>
-            <td></td>
-            <td>Kwid</td>
+            <td class="centered-text"></td>
+            <td class="centered-text">Kwid</td>
         </tr>
 
         <tr>
-            <td>Chevrolet</td>
-            <td>Aveo</td>
+            <td class="centered-text">Chevrolet</td>
+            <td class="centered-text">Aveo</td>
         </tr> 
 
 
