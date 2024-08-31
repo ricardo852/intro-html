@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 2</title>
+    <style>
+       .fondo-negro{
+            background-color: black;/*color Fondo*/
+            color: white;/*color de texto*/
+        }
+        .espacio-de-tabla {
+            width: 20%; /* Ajuste del ancho de la tabla */        
+        }
+        .centered-text {
+            text-align: center; /* Centrar texto horizontalmente */
+            vertical-align: middle; /* Centrar texto verticalmente */
+        }
+    </style>
+    
 </head>
 <body>
-    <table border="1">
+    
+    <table border="1" class="fondo-negro espacio-de-tabla">
         <tr>
-            <td>Nombre</td> 
-            <td>Apellido</td> 
+            <td class="centered-text">Nombre</td> 
+            <td class="centered-text">Apellido</td> 
         </tr>
         <tr>
-            <td>Joan</td> 
-            <td>Robles</td> 
+            <td class="centered-text">Joan</td> 
+            <td class="centered-text">Robles</td> 
         </tr>
         <tr>
-            <td>Peter</td> 
-            <td>Assange</td> 
+            <td class="centered-text">Peter</td> 
+            <td class="centered-text">Assange</td> 
         </tr>
     </table>
+
 </body>
 </html>
