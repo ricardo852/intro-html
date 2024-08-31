@@ -9,22 +9,35 @@
             background-color: black;/*color Fondo*/
             color: white;/*color de texto*/
         }
+        .espacio-de-tabla {
+            width: 20%; /* Ajuste del ancho de la tabla */        
+        }
+        .centered-text {
+            text-align: center; /* Centrar texto horizontalmente */
+            vertical-align: middle; /* Centrar texto verticalmente */
+        }
+        
     </style>
 </head>
 <body>
-    <table border="1" class="fondo-negro">
-        <tr>
-            <td><p> Nombre</p></td>
-        </tr>
-        <tr>           
-            <td>Juan</td>           
-        </tr>
-        <tr>           
-            <td>Peter</td>           
-        </tr>
-        <tr>           
-            <td>yulian</td>           
-        </tr>
-    </table>
+    <div>
+        <table border="1" class="fondo-negro espacio-de-tabla" >
+            <tbody>
+                <tr>
+                    <td><p class="centered-text"> Nombre</p></td>
+                </tr>
+                <tr>           
+                   <td class="centered-text">Juan</td>           
+                </tr>
+                <tr>           
+                   <td class="centered-text">Peter</td>           
+                </tr>
+                <tr>           
+                   <td class="centered-text">yulian</td>           
+                </tr>
+          
+            </tbody>
+       </table>
+    </div>
 </body>
 </html>
