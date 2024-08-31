@@ -4,32 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla 5</title>
+    <style>
+
+    .espacio-de-tabla {
+        width: 40%; /* Ajuste del ancho de la tabla */        
+    }
+    .centered-text {
+        text-align: center; /* Centrar texto horizontalmente */
+        vertical-align: middle; /* Centrar texto verticalmente */
+    }
+          
+    </style>
+  
 </head>
 <body>
-    <table border="1">
+    <table border="1" class="espacio-de-tabla">
         <tbody>
             <tr>
 
                 <td rowspan="2"> </td>
-                <td colspan="2">Aberage</td>
-                <td rowspan="2">Red eyes</td>
+                <td colspan="2" class="centered-text" >Aberage</td>
+                
+                
+                <td rowspan="2" class="centered-text" >Red eyes</td>
  
             </tr>
             <tr>
-                <td>Height</td>
-                <td>weight</td>
+                <td class="centered-text">Height</td>
+                <td class="centered-text">weight</td>
             </tr>
             <tr>
-                <td>Males</td>
-                <td>1.9</td>
-                <td>0.003</td>
-                <td>40%</td>
+                <td class="centered-text">Males</td>
+                <td class="centered-text">1.9</td>
+                <td class="centered-text">0.003</td>
+                <td class="centered-text">40%</td>
             </tr>
             <tr>
-                <td>Female</td>
-                <td>1.7</td>
-                <td>0.002</td>
-                <td>43%</td>
+                <td class="centered-text">Female</td>
+                <td class="centered-text">1.7</td>
+                <td class="centered-text">0.002</td>
+                <td class="centered-text">43%</td>
             </tr>
         </tbody>    
     </table>
