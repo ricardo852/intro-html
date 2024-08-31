@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 7</title>
     <style>
-        .contenedor{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .centered-text {
+            text-align: center; /* Centrar texto horizontalmente */
+            vertical-align: middle; /* Centrar texto verticalmente */
         }
-     
+        .espacio-de-tabla {
+            width: 50%; /* Ajuste del ancho de la tabla */        
+        }
     </style>
     
 </head>
    <body>
-    <div class="contenedor">
-      <table border="1">
+    <div class="centered-text">
+      <table border="1" class="espacio-de-tabla">
         <tbody>
             <tr>
-                <td colspan="6"><h1>Time Table</h1></td>
+                <td colspan="6"><h1 class="centered-text">Time Table</h1></td>
             </tr>
             <tr>
-                <td rowspan ="6"> <p>horus</p> </td>
+                <td rowspan ="6" > <p class="centered-text">hours</p> </td>
                 <td>mon</td>
                 <td>tue</td>
                 <td>wed</td>
@@ -37,13 +38,13 @@
                 <td>Arts</td>
             </tr>
             <tr>
-                <td colspan="5"></p>Lunch</p></td>
+                <td colspan="5"><p class="centered-text">Lunch</p></td>
             </tr>
             <tr>
                 <td>Math</td>
                 <td>Science</td>
                 <td>Math</td>
-                <td rowspan="2" colspan="2"></p>Project</p></td>        
+                <td rowspan="2" colspan="2"><p class="centered-text">Project</p></td>        
             </tr>
             <tr>
                 <td>Math</td>
