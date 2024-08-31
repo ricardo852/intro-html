@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 4</title>
+    <Style>
+      .espacio-de-tabla {
+            width: 30%; /* Ajuste del ancho de la tabla */        
+        }
+       .centered-text {
+        text-align: center; /* Centrar texto horizontalmente */
+        vertical-align: middle; /* Centrar texto verticalmente */
+        }
+    </Style>
+   
+  
 </head>
 <body>
-    <table border="1">        
+    <table border="1" class="espacio-de-tabla">        
             <tbody>
-               <tr>
+               <tr class="centered-text">
                   <td rowspan="3">Dato 1</td>
                    <td>Dato 2</td>
                    <td>Dato 3</td>
                    <td>Dato 4</td>
                 </tr>
     
-               <tr>
+               <tr class="centered-text">
                  <td>Dato 5</td>
                  <td>Dato 6</td>
                  <td>Dato 7</td>
@@ -28,11 +39,11 @@
             <tbody>
                 
 
-                <tr>
+                <tr class="centered-text">
                     <td>Item 1</td>
                     <td colspan="2">Item 2</td>
                 </tr>
-                <tr>
+                <tr class="centered-text">
                     <td>Item 3</td>
                     <td>Item 4</td>
                     <td>Item 5</td>
@@ -42,12 +53,12 @@
         <p ></p>
         <table border="1">
             <tbody>
-                <tr>
+                <tr class="centered-text">
                     <td>Item 1</td>
                     <td rowspan="2">Item 2</I></td>
                     <td>Item 3</td>
                 </tr>
-                <tr>
+                <tr class="centered-text">
                     <td>Item 4</td>
                     <td>Item 5</td>
                 </tr>
@@ -56,13 +67,11 @@
         <p></p>
         <table border="1">
             <tbody>
-                
-
-                <tr>
+                <tr class="centered-text">
                     <td>Item 1</td>
                     <td colspan="2">Item 2</td>
                 </tr>
-                <tr>
+                <tr class="centered-text">
                     <td>Item 3</td>
                     <td>Item 4</td>
                     <td>Item 5</td>
